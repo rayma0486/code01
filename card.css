@@ -24,11 +24,11 @@ body {
   justify-content: space-between;
 }
 
-.card img {
+.card-img {
   width: 100%;
   height: 180px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 10px; /* 保持原來矩形圖片的圓角 */
 }
 
 .card-footer {
@@ -41,6 +41,7 @@ body {
 .avatar {
   width: 40px;
   height: 40px;
+  object-fit: cover;
   border-radius: 50%;
 }
 
